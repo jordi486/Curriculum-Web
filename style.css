@@ -12,8 +12,8 @@
 }
 
 .category-text h2 {
-  color: #fff; /* Cambia el color del texto a blanco */
-  text-decoration: none; /* Quita el subrayado */
+  color: #fff; 
+  text-decoration: none; 
 }
 
 .category-text ul {
@@ -37,13 +37,13 @@
   max-width: 100px;
   margin: 5px 0;
 }
-/* Reset some default styles */
+
 body, h1, h2, h3, p, ul, li {
   margin: 0;
   padding: 0;
 }
 
-/* Apply a background color and set a font for the entire page */
+
 body {
   background: linear-gradient(45deg, #928dd1, #ef3d2e, #007bff, #ff3399);
   background-size: 400% 400%;
@@ -68,7 +68,7 @@ body {
   padding: 0 20px;
 }
 
-/* Style the header section */
+
 .site-header {
   background-color: #333;
   color: #fff;
@@ -103,18 +103,18 @@ body {
     color: #007bff;
   }
 
-/* Style the main content */
+
 main {
   padding: 20px;
-  text-align: center; /* Center align the text in main content */
+  text-align: center; 
 }
 
 h2 {
-  font-size: 32px; /* Increase font size for section titles */
+  font-size: 32px; 
   margin-top: 20px;
-  font-family: 'Arial', sans-serif; /* Use a custom font if you prefer */
-  color: #f5f8fb; /* Change title text color */
-  text-transform: uppercase; /* Uppercase section titles */
+  font-family: 'Arial', sans-serif; 
+  color: #f5f8fb; 
+  text-transform: uppercase; 
   padding-bottom: 10px;
 }
 
@@ -125,12 +125,12 @@ ul {
 }
 
 ul li {
-  font-size: 18px; /* Adjust font size for list items */
+  font-size: 18px; 
   margin-top: 10px;
-  font-family: 'Arial', sans-serif; /* Use a custom font if you prefer */
+  font-family: 'Arial', sans-serif; 
 }
 
-/* Style the footer */
+
 .footer {
   background-color: #333;
   color: #fff;
@@ -139,7 +139,6 @@ ul li {
   font-size: 14px;
 }
 
-/* Add styling for specific sections */
 #billboard {
   background: url('1.jpg') no-repeat center center fixed;
   height: 400px;
@@ -164,62 +163,58 @@ ul li {
   height: 450px;
 }
 
-/* Style Formacio section */
 #formacio {
-  background-color: #ffcccb; /* Light Red */
-  border: 2px solid #ff0000; /* Red */
+  background-color: #ffcccb; 
+  border: 2px solid #ff0000; 
   border-radius: 10px;
   padding: 20px;
   margin-top: 20px;
 }
 
 #formacio ul {
-  list-style-type: disc; /* Disc bullets */
+  list-style-type: disc; 
   margin-left: 30px;
 }
 
-/* Style Experiencia section */
 #experiencia {
-  background-color: #c2f0c2; /* Light Green */
-  border: 2px solid #00cc00; /* Green */
+  background-color: #c2f0c2; 
+  border: 2px solid #00cc00; 
   border-radius: 10px;
   padding: 20px;
   margin-top: 20px;
 }
 
 #experiencia ul {
-  list-style-type: circle; /* Circle bullets */
+  list-style-type: circle; 
   margin-left: 30px;
 }
 
-/* Style Idiomes section */
+
 #idiomes {
-  background-color: #ffc0cb; /* Light Pink */
-  border: 2px solid #ff3399; /* Dark Pink */
+  background-color: #ffc0cb; 
+  border: 2px solid #ff3399; 
   border-radius: 10px;
   padding: 20px;
   margin-top: 20px;
 }
 
 #idiomes ul {
-  list-style-type: square; /* Square bullets */
+  list-style-type: square; 
   margin-left: 30px;
 }
 
-/* Style Skills section */
 #skills {
-  background-color: #c2d1f0; /* Light Blue */
-  border: 2px solid #0066ff; /* Dark Blue */
+  background-color: #c2d1f0; 
+  border: 2px solid #0066ff; 
   border-radius: 10px;
   padding: 20px;
   margin-top: 20px;
 }
 
 #skills ul {
-  list-style-type: disc; /* Disc bullets */
+  list-style-type: disc; 
   margin-left: 30px;
 }
-/* Estilos del fondo animado para cada categoría */
 .category {
   display: flex;
   justify-content: space-between;
@@ -328,22 +323,22 @@ ul li {
 .category-images img, .category-images2 img {
   height: 100px;
   width: 100px;
-  margin: 5px 5px; /* Agrega margen vertical (5px) para separar las imágenes */
+  margin: 5px 5px; 
 }
 
 .category-images3 img, .category-images4 img{
   height: 100px;
   width: 200px;
-  margin: 15px 15px; /* Agrega margen vertical (5px) para separar las imágenes */
+  margin: 15px 15px; 
 }
 .category-images5 img{
   height: 150px;
   width: 150px;
-  margin: 15px 150px; /* Agrega margen vertical (5px) para separar las imágenes */
+  margin: 15px 150px; 
 }
 
 
 .stars {
-  color: yellow; /* Establece el color de las estrellas como amarillo */
-  margin-left: 5px; /* Agrega un margen izquierdo para separar las estrellas de los lenguajes */
+  color: yellow; 
+  margin-left: 5px; 
 }
