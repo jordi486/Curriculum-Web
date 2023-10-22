@@ -1,0 +1,349 @@
+.category {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.category-text {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+}
+
+.category-text h2 {
+  color: #fff; /* Cambia el color del texto a blanco */
+  text-decoration: none; /* Quita el subrayado */
+}
+
+.category-text ul {
+  list-style: none;
+}
+
+.category-text li {
+  font-size: 18px;
+  margin-top: 10px;
+  font-family: 'Arial', sans-serif;
+}
+
+.category-images {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: flex-end;
+}
+
+.category-images img {
+  max-width: 100px;
+  margin: 5px 0;
+}
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a background color and set a font for the entire page */
+body {
+  background: linear-gradient(45deg, #928dd1, #ef3d2e, #007bff, #ff3399);
+  background-size: 400% 400%;
+  animation: gradient 15s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+/* Style the header section */
+.site-header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.site-header h1 {
+  color: #fff;
+  text-decoration: none;
+  font-size: 28px;
+  margin: 0;
+}
+.main-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+  }
+
+.main-nav a:hover {
+    color: #007bff;
+  }
+
+/* Style the main content */
+main {
+  padding: 20px;
+  text-align: center; /* Center align the text in main content */
+}
+
+h2 {
+  font-size: 32px; /* Increase font size for section titles */
+  margin-top: 20px;
+  font-family: 'Arial', sans-serif; /* Use a custom font if you prefer */
+  color: #f5f8fb; /* Change title text color */
+  text-transform: uppercase; /* Uppercase section titles */
+  padding-bottom: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  font-size: 18px; /* Adjust font size for list items */
+  margin-top: 10px;
+  font-family: 'Arial', sans-serif; /* Use a custom font if you prefer */
+}
+
+/* Style the footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+/* Add styling for specific sections */
+#billboard {
+  background: url('1.jpg') no-repeat center center fixed;
+  height: 400px;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  transition: height 0.3s;
+}
+
+#billboard h2 {
+  margin-top: 240px;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+#billboard:hover {
+  height: 450px;
+}
+
+/* Style Formacio section */
+#formacio {
+  background-color: #ffcccb; /* Light Red */
+  border: 2px solid #ff0000; /* Red */
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#formacio ul {
+  list-style-type: disc; /* Disc bullets */
+  margin-left: 30px;
+}
+
+/* Style Experiencia section */
+#experiencia {
+  background-color: #c2f0c2; /* Light Green */
+  border: 2px solid #00cc00; /* Green */
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#experiencia ul {
+  list-style-type: circle; /* Circle bullets */
+  margin-left: 30px;
+}
+
+/* Style Idiomes section */
+#idiomes {
+  background-color: #ffc0cb; /* Light Pink */
+  border: 2px solid #ff3399; /* Dark Pink */
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#idiomes ul {
+  list-style-type: square; /* Square bullets */
+  margin-left: 30px;
+}
+
+/* Style Skills section */
+#skills {
+  background-color: #c2d1f0; /* Light Blue */
+  border: 2px solid #0066ff; /* Dark Blue */
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#skills ul {
+  list-style-type: disc; /* Disc bullets */
+  margin-left: 30px;
+}
+/* Estilos del fondo animado para cada categoría */
+.category {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.category1 {
+  background: linear-gradient(45deg, #87CEEB, #7FFFD4, #e4a024, #00BFFF);
+  background-size: 400% 400%;
+  animation: gradient1 15s linear infinite;
+}
+
+
+.category2 {
+  background: linear-gradient(45deg, #ffcccb, #ffc0cb, #b02b41, #ffcccb);
+  background-size: 400% 400%;
+  animation: gradient2 15s linear infinite;
+}
+
+.category3 {
+  background: linear-gradient(45deg, #c2d1f0, #c2f0c2, #ae3ebb, #c2d1f0);
+  background-size: 400% 400%;
+  animation: gradient3 15s linear infinite;
+}
+
+.category4 {
+  background: linear-gradient(45deg, #c2f0c2, #ffc0cb, #4543c5, #ffc0cb);
+  background-size: 400% 400%;
+  animation: gradient4 15s linear infinite;
+}
+
+.category5 {
+  background: linear-gradient(45deg, #ffc0cb, #c2d1f0, #a6ca59, #ff3399);
+  background-size: 400% 400%;
+  animation: gradient5 15s linear infinite;
+}
+
+@keyframes gradient1 {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient2 {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient3 {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient4 {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient5 {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.category-images, .category-images2, .category-images3, .category-images4, .category-images5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.category-images img, .category-images2 img {
+  height: 100px;
+  width: 100px;
+  margin: 5px 5px; /* Agrega margen vertical (5px) para separar las imágenes */
+}
+
+.category-images3 img, .category-images4 img{
+  height: 100px;
+  width: 200px;
+  margin: 15px 15px; /* Agrega margen vertical (5px) para separar las imágenes */
+}
+.category-images5 img{
+  height: 150px;
+  width: 150px;
+  margin: 15px 150px; /* Agrega margen vertical (5px) para separar las imágenes */
+}
+
+
+.stars {
+  color: yellow; /* Establece el color de las estrellas como amarillo */
+  margin-left: 5px; /* Agrega un margen izquierdo para separar las estrellas de los lenguajes */
+}
